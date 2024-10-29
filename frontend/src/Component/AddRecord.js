@@ -28,7 +28,7 @@ function AddRecord() {
   const addRecord = async (values) => {
     setLoading(true);
     try {
-      await axios.post(`http://localhost:5555/userdata/addrecord`, values);
+      await axios.post(`http://13.245.183.200:5555/userdata/addrecord`, values);
 
       setSubmitted(true);
     } catch (error) {
